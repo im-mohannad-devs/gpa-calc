@@ -18,11 +18,12 @@ Run the script:
 ```bash
 python "GPA Calculator.py"
 ```
-
-## Example
-
-Enter your grades and credits → get GPA instantly 🚀
-
+# Example
+Enter number of courses: 3
+Enter grade: A
+Enter credit hours: 3
+...
+Your GPA is: 3.5
 ## Author
 
 Mohannnad
