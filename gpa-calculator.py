@@ -6,17 +6,17 @@ while scale not in ["G","A"]:
 
 if scale == "A":
     def get_grade(mark):
-        if 90 <= mark <= 100:
+        if mark >= 90:
             return "A"
-        elif 82 <= mark <= 89:
+        elif mark >= 82:
             return "B+"
-        elif 74 <= mark <= 81:
+        elif mark >= 74:
             return "B"
-        elif 66 <= mark <= 73:
+        elif mark >= 66:
             return "C+"
-        elif 58 <= mark <= 65:
+        elif mark >= 58:
             return "C"
-        elif 50 <= mark <= 57:
+        elif mark >= 50:
             return "D"
         else:
             return "Fail"
@@ -33,25 +33,25 @@ if scale == "A":
 
 elif scale == "G":
     def get_grade(mark):
-        if 90 <= mark <= 100:
+        if mark >= 90:
             return "A+"
-        elif 85 <= mark <= 89.9:
+        elif mark >= 85:
             return "A"
-        elif 80 <= mark <= 84.9:
+        elif mark >= 80:
             return "A-"
-        elif 75 <= mark <= 79.9:
+        elif mark >= 75:
             return "B+"
-        elif 70 <= mark <= 74.9:
+        elif mark >= 70:
             return "B"
-        elif 65 <= mark <= 69.9:
+        elif mark >= 65:
             return "B-"
-        elif 60 <= mark <= 64.9:
+        elif mark >= 60:
             return "C+"
-        elif 55 <= mark <= 59.9:
+        elif mark >= 55:
             return "C"
-        elif 50 <= mark <= 54.9:
+        elif mark >= 50:
             return "C-"
-        elif 40 <= mark <= 49.9:
+        elif mark >= 40:
             return "D"
         else:
             return "E"
