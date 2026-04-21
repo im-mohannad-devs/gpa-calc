@@ -25,7 +25,7 @@ Enter grade: A
 
 Enter credit hours: 3
 ...
-Your GPA is: 3.5
+Your GPA is: 3.67
 ## Author
 
 Mohannnad
