@@ -20,7 +20,9 @@ python "GPA Calculator.py"
 ```
 # Example
 Enter number of courses: 3
+
 Enter grade: A
+
 Enter credit hours: 3
 ...
 Your GPA is: 3.5
