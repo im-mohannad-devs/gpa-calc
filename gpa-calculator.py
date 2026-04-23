@@ -20,7 +20,6 @@ if scale == "A":
             return "D"
         else:
             return "Fail"
-
     grades_dict = {
         "A": 4.0,
         "B+": 3.5,
@@ -55,8 +54,7 @@ elif scale == "G":
             return "D"
         else:
             return "E"
-
-    grades_dict = {
+    grades_dict= {
         "A+": 4.0,
         "A": 4.0,
         "A-": 3.7,
@@ -82,14 +80,14 @@ total_hours = 0
 total_points = 0
 
 for i in range(num):
-    mark = float(input(f"Enter the degree of the {i+1}st course:"))
+    mark = float(input(f"Enter the degree of course{i+1}:"))
     while mark < 0 or mark > 100:
         print("Invalid mark, try again")
-        mark = float(input(f"Enter the degree of the {i+1}st course:"))
-    hours = int(input(f"Enter credit hours of the {i+1}st course:"))
+        mark = float(input(f"Enter the degree of course{i+1}:"))
+    hours = int(input(f"Enter credit hours of course{i+1}:"))
     while hours <= 0:
         print("Invalid hours, try again")
-        hours = int(input(f"Enter credit hours of the {i+1}st course:"))
+        hours = int(input(f"Enter credit hours of course{i+1}:"))
     grade = get_grade(mark)
     points = grade_to_points(grade)
 
